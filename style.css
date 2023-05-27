@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
+.project h3 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.project p {
+  color: #666;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #53bbe7;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+/* Estilos padrão */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+button#toggle-theme {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para o modo noturno */
+body.dark-mode {
+  background-color: #111;
+  color: #fff;
+}
+
+header.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+button#toggle-theme {
+  background-color: #fff;
+  color: #333;
+}
+
+section.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.project.dark-mode h3 {
+  color: #fff;
+}
+
+footer.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
